@@ -1,28 +1,27 @@
-**Healthcare Database System**
-**Overview**
+## Healthcare Database System
+## Overview
 This repository contains a comprehensive healthcare database system designed to manage patient records, doctor information, appointments, and medical histories. The system is built using MySQL and includes complete schema definitions, sample data, and a variety of SQL queries demonstrating database operations.
 
-**Database Schema**
-Tables
-**Patients**
+## Database Schema
 
+Table
+## Patients
 Stores patient personal information (name, contact, DOB, gender, etc.)
 
 Primary Key: Patient_ID
 
-**Doctors**
+## Doctors
 
 Contains doctor details including specialization and consultation fees
 
 Primary Key: Doctor_ID
 
-**AppointmentSlots**
+## AppointmentSlots
 
 Manages available time slots for doctor appointments
 
 Primary Key: Slot_ID
-
-**Appointments**
+## Appointments
 
 Tracks scheduled patient-doctor appointments
 
@@ -30,7 +29,7 @@ Primary Key: Appointment_ID
 
 Foreign Keys: Patient_ID, Doctor_ID, Slot_ID, History_ID
 
-**MedicalHistories**
+## MedicalHistories
 
 Maintains records of patient diagnoses and treatments
 
@@ -38,8 +37,8 @@ Primary Key: History_ID
 
 Foreign Keys: Patient_ID, Doctor_ID
 
-**Key Features**
-**Data Query Language (DQL) Examples**
+## Key Features
+## Data Query Language (DQL) Examples
 Basic SELECT queries for all tables
 
 Filtering with WHERE clauses
@@ -52,7 +51,7 @@ Sorting with ORDER BY
 
 Limiting results with LIMIT
 
-**Data Definition Language (DDL) Examples**
+## Data Definition Language (DDL) Examples
 Table creation with constraints
 
 ALTER TABLE operations (add/drop columns, modify datatypes)
@@ -61,14 +60,14 @@ RENAME operations for tables and columns
 
 DROP and TRUNCATE table operations
 
-**Data Manipulation Language (DML) Examples**
+## Data Manipulation Language (DML) Examples
 INSERT statements for populating tables
 
 UPDATE operations for modifying records
 
 DELETE operations with conditions
 
-**Advanced Operations**
+## Advanced Operations
 JOIN operations (INNER, LEFT, CROSS)
 
 Subqueries
@@ -79,7 +78,7 @@ Complex filtering conditions
 
 ![image](https://github.com/user-attachments/assets/9515e4a6-3377-4103-bbec-3069379dc4df)
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Customer Relationship Management (CRM) Database - README
 
@@ -176,6 +175,8 @@ Customer name pattern analysis
 Order value statistics
 
 ![image](https://github.com/user-attachments/assets/e993e8ba-02a5-4c1a-a756-dc41845ba140)
+
+------------------------------------------------------------------------------------------------------------------------------------------
 
 ## License
 
